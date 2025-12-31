@@ -31,43 +31,40 @@ export function About() {
             <h2 className="text-3xl md:text-5xl text-white">
               Programación profesional,{' '}
               <span className="bg-gradient-to-r from-[#ff2637] to-red-600 text-transparent bg-clip-text">
-                no plantillas.
+                sin atajos.
               </span>
             </h2>
 
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                Soy estudiante de Ingeniería en Sistemas en la{' '}
-                <span className="text-[#ff2637]">UTN (Universidad Tecnológica Nacional)</span> y
-                desarrollador Full Stack especializado en crear soluciones digitales que realmente
-                funcionan.
+                Detrás de Coria Dev estoy yo, Martín. Me estoy formando en la{' '}
+                <span className="text-[#ff2637] font-semibold">Tecnicatura Universitaria en Programación (UTN)</span>,
+                una de las instituciones más exigentes del país, para garantizarte que tu proyecto tenga bases sólidas.
               </p>
 
               <p>
-                A diferencia de las plantillas genéricas que encontrás en internet, cada proyecto
-                que desarrollo está construido con código sólido, escalable y pensado para crecer
-                junto a tu negocio.
+                Me especializo en crear soluciones digitales a medida, alejándome de las plantillas prefabricadas que limitan tu crecimiento.
+                Mi trabajo se basa en tres pilares: código limpio para que tu web vuele, escalabilidad para que el sistema crezca con tus ventas, y estrategia para entender tu negocio.
               </p>
 
               <p>
-                Mi enfoque es simple: entender tu necesidad, diseñar la solución adecuada y
-                programar una herramienta que no solo se vea bien, sino que{' '}
-                <span className="text-[#ff2637]">resuelva problemas reales</span>.
+                Transformemos tu necesidad en una{' '}
+                <span className="text-[#ff2637] font-semibold">herramienta digital potente</span> que no solo se vea bien, sino que resuelva problemas reales.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-3 md:gap-4 pt-4">
               <div className="bg-[#0d0d0d]/50 border border-[#ff2637]/20 rounded-lg px-4 md:px-6 py-2 md:py-3 flex-1 min-w-[100px]">
-                <div className="text-[#ff2637] text-xl md:text-2xl">3+</div>
-                <div className="text-gray-400 text-xs md:text-sm">Años de Experiencia</div>
+                <div className="text-[#ff2637] text-xl md:text-2xl">UTN</div>
+                <div className="text-gray-400 text-xs md:text-sm">Formación Académica</div>
               </div>
               <div className="bg-[#0d0d0d]/50 border border-[#ff2637]/20 rounded-lg px-4 md:px-6 py-2 md:py-3 flex-1 min-w-[100px]">
-                <div className="text-[#ff2637] text-xl md:text-2xl">20+</div>
-                <div className="text-gray-400 text-xs md:text-sm">Proyectos Completados</div>
+                <div className="text-[#ff2637] text-xl md:text-2xl">Full Stack</div>
+                <div className="text-gray-400 text-xs md:text-sm">Perfil Técnico</div>
               </div>
               <div className="bg-[#0d0d0d]/50 border border-[#ff2637]/20 rounded-lg px-4 md:px-6 py-2 md:py-3 flex-1 min-w-[100px]">
                 <div className="text-[#ff2637] text-xl md:text-2xl">100%</div>
-                <div className="text-gray-400 text-xs md:text-sm">Clientes Satisfechos</div>
+                <div className="text-gray-400 text-xs md:text-sm">Compromiso</div>
               </div>
             </div>
           </div>

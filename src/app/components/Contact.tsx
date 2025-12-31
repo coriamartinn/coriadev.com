@@ -115,18 +115,18 @@ export function Contact() {
             <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 md:gap-6">
               {/* Email */}
               <a
-                href="mailto:martin@coriadev.com"
+                href="mailto:coriamartin-dev@outlook.com"
                 className="group flex items-center gap-2 text-gray-300 hover:text-[#ff2637] transition-colors justify-center sm:justify-start"
               >
                 <div className="bg-[#0d0d0d] p-3 rounded-lg group-hover:bg-black transition-colors">
                   <Mail size={20} />
                 </div>
-                <span className="text-sm md:text-base">martin@coriadev.com</span>
+                <span className="text-sm md:text-base">coriamartin-dev@outlook.com</span>
               </a>
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com/in/martincoria"
+                href="https://www.linkedin.com/in/martincoria26/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 text-gray-300 hover:text-[#ff2637] transition-colors justify-center sm:justify-start"
@@ -139,7 +139,7 @@ export function Contact() {
 
               {/* GitHub */}
               <a
-                href="https://github.com/coriadev"
+                href="https://github.com/coriamartinn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 text-gray-300 hover:text-[#ff2637] transition-colors justify-center sm:justify-start"
