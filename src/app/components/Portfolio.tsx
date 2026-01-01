@@ -39,7 +39,7 @@ const projects: Project[] = [
 
 export function Portfolio() {
   return (
-    <section id="proyectos" className="py-20 md:py-32 bg-[#0d0d0d] relative">
+    <section id="portafolio" className="py-20 md:py-32 bg-[#0d0d0d] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header de la sección */}

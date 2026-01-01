@@ -48,10 +48,10 @@ export function Navbar() {
               Servicios
             </button>
             <button
-              onClick={() => scrollToSection('proyectos')}
+              onClick={() => scrollToSection('portafolio')}
               className="text-gray-300 hover:text-[#ff2637] transition-colors"
             >
-              Proyectos
+              Portafolio
             </button>
             <button
               onClick={() => scrollToSection('sobre-mi')}
@@ -109,10 +109,10 @@ export function Navbar() {
               Servicios
             </button>
             <button
-              onClick={() => scrollToSection('proyectos')}
+              onClick={() => scrollToSection('portafolio')}
               className="block w-full text-left text-gray-300 hover:text-[#ff2637] transition-colors py-2"
             >
-              Proyectos
+              Portafolio
             </button>
             <button
               onClick={() => scrollToSection('sobre-mi')}
