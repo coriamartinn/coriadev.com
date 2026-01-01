@@ -109,10 +109,10 @@ export function Navbar() {
               Servicios
             </button>
             <button
-              onClick={() => scrollToSection('portafolio')}
+              onClick={() => scrollToSection('proyectos')}
               className="block w-full text-left text-gray-300 hover:text-[#ff2637] transition-colors py-2"
             >
-              Portafolio
+              Proyectos
             </button>
             <button
               onClick={() => scrollToSection('sobre-mi')}
