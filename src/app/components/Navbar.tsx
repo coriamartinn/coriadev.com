@@ -48,10 +48,10 @@ export function Navbar() {
               Servicios
             </button>
             <button
-              onClick={() => scrollToSection('portafolio')}
+              onClick={() => scrollToSection('proyectos')}
               className="text-gray-300 hover:text-[#ff2637] transition-colors"
             >
-              Portafolio
+              Proyectos
             </button>
             <button
               onClick={() => scrollToSection('sobre-mi')}
