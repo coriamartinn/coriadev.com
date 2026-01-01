@@ -168,7 +168,7 @@ export function Contact() {
 
             {/* Copyright */}
             <p className="text-gray-500 text-sm">
-              © 2024 Coria Dev. Todos los derechos reservados.
+              © 2026 Coria Dev. Todos los derechos reservados.
             </p>
 
             {/* Back to Top */}
