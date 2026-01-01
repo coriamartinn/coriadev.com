@@ -14,7 +14,7 @@ export function About() {
             <div className="absolute -inset-4 bg-gradient-to-r from-[#ff2637] to-red-600 rounded-2xl blur-lg opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1737575655055-e3967cbefd03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjcxNjAzODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="/foto-mia.jpg"
                 alt="Martín Coria - Desarrollador Full Stack"
                 className="w-full h-auto"
               />
