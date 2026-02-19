@@ -150,7 +150,18 @@ export function Navbar() {
               className="flex items-center gap-2 w-full text-left text-[#ff2637] font-semibold hover:text-red-400 transition-colors py-2 border-b border-gray-800/50"
             >
               <Lock size={16} />
-              Ingresar al Sistema
+              Sistema Psico
+            </a>
+
+            {/* 👇 3. BOTÓN SISTEMA PSICO (Móvil) */}
+            <a
+              href="https://cocos.coriadev.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 w-full text-left text-[#ff2637] font-semibold hover:text-red-400 transition-colors py-2 border-b border-gray-800/50"
+            >
+              <Lock size={16} />
+              Sistema Coco's
             </a>
 
             <button
