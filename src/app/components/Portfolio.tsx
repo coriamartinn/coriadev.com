@@ -40,7 +40,7 @@ const projects: Project[] = [
     description: "Aplicación web diseñada para manejar hamburgueserias o restaurantes, tiene sector pedidos, cocina, estadisticas diarias y reportes o finanzas. Tambien se puede conectar la comandera y tiene todo un gran control perfecto del restaurante.",
     tech: ["React", "Node.js", "MySQL", "Auth", "Tailwind", "Express"],
     image: "/cocos-burger.png",
-    liveUrl: "cocos.coriadev.com",
+    liveUrl: "https://cocos.coriadev.com/",
     repoUrl: "https://github.com/coriamartinn/cocos-bg",
   },
 ];
