@@ -39,7 +39,7 @@ const projects: Project[] = [
     title: "Sistema de Gestión de pedidos en restaurantes (SaSs)",
     description: "Aplicación web diseñada para manejar hamburgueserias o restaurantes, tiene sector pedidos, cocina, estadisticas diarias y reportes o finanzas. Tambien se puede conectar la comandera y tiene todo un gran control perfecto del restaurante.",
     tech: ["React", "Node.js", "MySQL", "Auth", "Tailwind", "Express"],
-    image: "/cocos-burger.ppng",
+    image: "/cocos-burger.png",
     liveUrl: "cocos.coriadev.com",
     repoUrl: "https://github.com/coriamartinn/cocos-bg",
   },
