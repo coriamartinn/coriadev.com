@@ -72,11 +72,32 @@ export function Navbar() {
                 hover:-translate-y-0.5 overflow-hidden ml-4 border border-red-500/30
               "
             >
+
               {/* Efecto de brillo animado */}
               <div className="absolute inset-0 w-full h-full bg-white/20 group-hover:translate-x-full transition-transform duration-500 -skew-x-12 -translate-x-full" />
 
               <Lock size={14} className="text-white/90" />
               <span>Sistema Psico</span>
+            </a>
+
+            {/* 👇 2. BOTÓN SISTEMA PSICO (Desktop) */}
+            <a
+              href="https://cocos.coriadev.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                group relative inline-flex items-center gap-2 px-5 py-2 rounded-full 
+                bg-gradient-to-r from-[#4CAF50] to-[#1E6B1A] text-white font-bold text-sm 
+                hover:shadow-[0_0_15px_rgba(255,38,55,0.5)] transition-all duration-300 
+                hover:-translate-y-0.5 overflow-hidden ml-4 border border-red-500/30
+              "
+            >
+
+              {/* Efecto de brillo animado */}
+              <div className="absolute inset-0 w-full h-full bg-white/20 group-hover:translate-x-full transition-transform duration-500 -skew-x-12 -translate-x-full" />
+
+              <Lock size={14} className="text-white/90" />
+              <span>Sistema Coco's Burger</span>
             </a>
           </div>
 
