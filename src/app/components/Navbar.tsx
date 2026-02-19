@@ -158,7 +158,7 @@ export function Navbar() {
               href="https://cocos.coriadev.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 w-full text-left text-[#ff2637] font-semibold hover:text-red-400 transition-colors py-2 border-b border-gray-800/50"
+              className="flex items-center gap-2 w-full text-left text-[#1E6B1A] font-semibold hover:text-red-400 transition-colors py-2 border-b border-gray-800/50"
             >
               <Lock size={16} />
               Sistema Coco's
