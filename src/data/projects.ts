@@ -62,4 +62,4 @@ export const projects: Project[] = [
 ];
 
 // Cantidad de espacios vacíos para futuros proyectos que se muestran al final del grid.
-export const emptySlots = 0;
+export const emptySlots = 2;
