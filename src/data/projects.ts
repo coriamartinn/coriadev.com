@@ -9,9 +9,14 @@ export interface Project {
 }
 
 // Reemplazá los valores de cada proyecto con la info real (descripción completa,
-// links de GitHub/demo, e imagen). Las imágenes están en src/assets/projects/ —
-// podés pisar esos archivos SVG con una captura real (.png/.jpg) y actualizar
-// el import/path de "image" acá abajo.
+// links de GitHub/demo, e imagen). Para la imagen: pisá el archivo .svg correspondiente
+// en src/assets/projects/ con tu captura real (.png/.jpg) y actualizá el import de
+// arriba con el nombre de archivo nuevo — Vite se encarga de optimizarla y de que
+// funcione tanto en desarrollo como en el build de producción.
+import estudioJuridicoImg from '../assets/projects/estudio-juridico.svg'
+import constructoraImg from '../assets/projects/constructora.svg'
+import gestionPedidosImg from '../assets/projects/gestion-pedidos.svg'
+
 export const projects: Project[] = [
   {
     id: 'estudio-juridico',
@@ -19,7 +24,7 @@ export const projects: Project[] = [
     description:
       'Landing page corporativa diseñada para transmitir confianza y autoridad. Optimizada para la captación de clientes (leads) con llamadas a la acción estratégicas y diseño responsive en cada sección.',
     tags: ['React', 'Tailwind CSS', 'Framer Motion'],
-    image: '/src/assets/projects/estudio-juridico.svg',
+    image: estudioJuridicoImg,
     demoUrl: '#',
     githubUrl: '#',
   },
@@ -29,7 +34,7 @@ export const projects: Project[] = [
     description:
       'Portfolio digital para empresa de construcción. Galería de proyectos interactiva y optimización de imágenes para una carga veloz. Diseño robusto pensado para transmitir solidez y trayectoria.',
     tags: ['React', 'Vite', 'UX/UI Design'],
-    image: '/src/assets/projects/constructora.svg',
+    image: constructoraImg,
     demoUrl: '#',
     githubUrl: '#',
   },
@@ -39,7 +44,7 @@ export const projects: Project[] = [
     description:
       'Aplicación web diseñada para manejar hamburgueserías o restaurantes, tiene sector pedidos, cocina y estadísticas en tiempo real para optimizar la operación diaria del local.',
     tags: ['React', 'Node.js', 'MySQL', 'Auth', 'Tailwind', 'Express'],
-    image: '/src/assets/projects/gestion-pedidos.svg',
+    image: gestionPedidosImg,
     demoUrl: '#',
     githubUrl: '#',
   },

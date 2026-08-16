@@ -41,12 +41,16 @@ Editá los 3 proyectos existentes con la descripción completa y los links reale
 
 ### 2. Imágenes de proyectos — `src/assets/projects/`
 Hoy son placeholders en SVG (`estudio-juridico.svg`, `constructora.svg`, `gestion-pedidos.svg`).
-Reemplazalos por capturas reales (`.png` / `.jpg`, idealmente 1200×750px o proporción 16:10)
-y actualizá el campo `image` en `projects.ts` con la ruta nueva, por ejemplo:
+Reemplazalos por capturas reales (`.png` / `.jpg`, idealmente 1200×750px o proporción 16:10).
+Si usás el mismo nombre de archivo (cambiando solo la extensión), actualizá el `import`
+correspondiente arriba del array en `src/data/projects.ts`, por ejemplo:
 
 ```ts
-image: '/src/assets/projects/estudio-juridico.jpg',
+import estudioJuridicoImg from '../assets/projects/estudio-juridico.jpg'
 ```
+
+Importante: las imágenes se referencian con `import`, no como string de ruta (`"/src/..."`).
+Así Vite las procesa y quedan incluidas correctamente en el build de producción.
 
 ### 3. Nuevos proyectos — mismo archivo
 Al final del array de `projects` en `src/data/projects.ts`, agregá un nuevo objeto por
