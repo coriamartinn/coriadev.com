@@ -8,9 +8,9 @@ const WHATSAPP_MESSAGE =
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
 
 const socials = [
-  { label: 'GitHub', href: 'https://github.com/', icon: GithubIcon },
-  { label: 'LinkedIn', href: 'https://linkedin.com/', icon: LinkedinIcon },
-  { label: 'Instagram', href: 'https://instagram.com/', icon: InstagramIcon },
+  { label: 'GitHub', href: 'https://github.com/coriamartinn', icon: GithubIcon },
+  { label: 'LinkedIn', href: 'https://linkedin.com/coriamartin26', icon: LinkedinIcon },
+  { label: 'Instagram', href: 'https://instagram.com/coriamartinn', icon: InstagramIcon },
 ]
 
 export default function Contact() {
