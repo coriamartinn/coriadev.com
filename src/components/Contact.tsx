@@ -1,7 +1,11 @@
 import { ArrowUpRight, Mail } from 'lucide-react'
-import { GithubIcon, InstagramIcon, LinkedinIcon } from './icons'
+import { GithubIcon, InstagramIcon, LinkedinIcon, WhatsappIcon } from './icons'
 
-const EMAIL = 'hola@coriadev.com'
+const EMAIL = 'coria.dev26@gmail.com'
+const WHATSAPP_NUMBER = '5491121737187'
+const WHATSAPP_MESSAGE =
+  'Hola! Quiero pedir un presupuesto. Mi proyecto es sobre... y el problema que necesito solucionar es...'
+const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
 
 const socials = [
   { label: 'GitHub', href: 'https://github.com/', icon: GithubIcon },
@@ -37,7 +41,21 @@ export default function Contact() {
             {EMAIL}
             <ArrowUpRight size={15} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
+
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Pedir presupuesto por WhatsApp"
+            className="group inline-flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full border border-border-light text-ink-muted transition-colors hover:border-accent hover:text-accent"
+          >
+            <WhatsappIcon size={22} />
+          </a>
         </div>
+
+        <p className="mt-3 font-mono text-xs text-ink-faint">
+          El botón de WhatsApp abre un mensaje con presupuesto y detalle del problema a resolver, listo para completar.
+        </p>
 
         <div className="mt-14 flex flex-wrap items-center gap-3 border-t border-border pt-8">
           {socials.map(({ label, href, icon: Icon }) => (
